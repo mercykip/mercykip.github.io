@@ -16,8 +16,8 @@ published: true
    Step 2  
    Generate a keystore  
    Syntax    
-   edit everything enclosed in italic/bolds
-   keytool -genkey -v -keystore **<keystoreName>**__.keystore -alias _<Keystore AliasName>_**** -keyalg **<Key algorithm>**__ -keysize     **<Key size>**__ -validity **<Key Validity in Days>**__  
+   edit everything enclosed in italics  
+   keytool -genkey -v -keystore <keystoreName>.keystore -alias <Keystore AliasName> -keyalg <Key algorithm> -keysize     <Key size> -validity <Key Validity in Days>   
   eg.  
   keytool -genkey -v -keystore key-mobileappHCH.keystore -alias alias_mobileappHCH -keyalg RSA -keysize 2048 
   -validity 10000
@@ -30,7 +30,7 @@ published: true
   run:  
   jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore key-mobileappHCH.keystore app-release-unsigned.apk alias_mobileappHCH  
   Syntax  
-  jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore **<keystorename>**__ **<Unsigned APK file>**__ **<Keystore Alias name>**__
+  jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore <keystorename> <Unsigned APK file> <Keystore Alias name>  
   
   Step 4  
   
