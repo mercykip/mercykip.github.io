@@ -19,7 +19,7 @@ published: true
   keytool -genkey -v -keystore key-mobileappHCH.keystore -alias alias_mobileappHCH -keyalg RSA -keysize 2048 
   -validity 10000
   
-  Step 3 : Sign the unsigned APK
+  Step 3 : Sign the unsigned APK  
   cd your release folder eg.  
   E:\Africa\mobile>cd E:\Africa\mobile\platforms\android\app\build\outputs\apk\release  
   run:  
