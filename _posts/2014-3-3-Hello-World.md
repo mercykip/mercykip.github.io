@@ -16,7 +16,7 @@ published: true
    Generate a keystore  
    Syntax    
    edit everything enclosed in <>  
-   keytool -genkey -v -keystore <keystoreName>.keystore -alias <Keystore AliasName> -keyalg <Key algorithm> -keysize     <Key size> -validity <Key Validity in Days>  
+   keytool -genkey -v -keystore <keystoreName>.keystore -alias <Keystore AliasName> -keyalg <Key algorithm> -keysize     <Key size> -validity <Key Validity in Days>   
   eg.  
   keytool -genkey -v -keystore key-mobileappHCH.keystore -alias alias_mobileappHCH -keyalg RSA -keysize 2048 
   -validity 10000
