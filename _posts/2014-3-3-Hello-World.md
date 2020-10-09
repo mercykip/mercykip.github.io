@@ -12,7 +12,7 @@ published: true
    run: cordova build --release android
    This will generate an unsigned apk in:platforms/android/ant-build/Example-release-unsigned.apk
    
-   Step 2
+   Step 2  
    Generate a keystore  
    Syntax
    keytool -genkey -v -keystore <keystoreName>.keystore -alias <Keystore AliasName> -keyalg <Key algorithm> -keysize     <Key size> -validity <Key Validity in Days>
