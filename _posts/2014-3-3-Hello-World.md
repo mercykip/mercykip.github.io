@@ -10,7 +10,7 @@ published: true
    generate a release build from cordovan  
    cd to your project directory  
    eg. E:\Africa\mobile>  
-   run: _cordova build --release android_
+   run: _cordova build --release android_  
    This will generate an unsigned apk in:platforms/android/ant-build/Example-release-unsigned.apk
    
    Step 2  
