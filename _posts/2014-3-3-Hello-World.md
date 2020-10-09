@@ -20,5 +20,3 @@ published: true
   eg.  
   keytool -genkey -v -keystore key-mobileappHCH.keystore -alias alias_mobileappHCH -keyalg RSA -keysize 2048 
   -validity 10000
-
-   
