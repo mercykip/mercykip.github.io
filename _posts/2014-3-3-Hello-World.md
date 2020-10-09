@@ -42,7 +42,7 @@ published: true
   E:\Africa\mobile\platforms\android\app\build\outputs\apk\release  
   run :  
   
-  E:\Africa\mobile\platforms\android\app\build\outputs\apk\release>C:\Android\build-tools\29.0.2\zipalign -v 4 app-release-unsigned.apk hch.apk
+  E:\Africa\mobile\platforms\android\app\build\outputs\apk\release>C:\Android\build-tools\29.0.2\zipalign -v 4 app-release-unsigned.apk hch.apk  
   
   Your apk will be located in the release folder. You can transfer and test it on your phone
 
